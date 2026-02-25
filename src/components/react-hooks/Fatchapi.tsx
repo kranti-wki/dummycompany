@@ -60,6 +60,7 @@ const Fatchapi: React.FC = () => {
           Voluptate accusamus reiciendis dolor eum dicta totam sequi tenetur laboriosam minima dolores esse,
            ea ad, nihil non. Temporibus illo ex quo officia maxime earum, quos esse pariatur quaerat.
             Laboriosam similique sint distinctio cupiditate nemo reprehenderit dignissimos?</h2>
+            <h1 className="text-white text-3xl">number one </h1>
       </div>
     </>
   );
