@@ -49,6 +49,17 @@ const Fatchapi: React.FC = () => {
           fetch
         </button>
         <h1 className="text-white text-5xl flex items-center justify-center mx-auto mt-10">hello my world</h1>
+        <h2 className="text-white text-[10px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. A fuga corrupti impedit reprehenderit deleniti repellendus 
+          amet error rerum, veniam ab necessitatibus architecto provident neque voluptatem non. Laborum vel amet, voluptatem, 
+          voluptatum nulla nostrum ab quos dolores veniam aliquam deleniti nobis. Corrupti, ipsam nobis libero quis nam 
+          exercitationem repellendus eaque debitis placeat mollitia minus aspernatur reiciendis fugit asperiores neque voluptatum qui. Modi omnis aperiam assumenda 
+          facilis temporibus sint error, dolorem qui maiores blanditiis, ut numquam accusantium illo voluptatem expedita? Beatae, id sunt! Maxime quam ipsam hic dolorum, 
+          dicta perspiciatis voluptatem! Tempora totam quia libero odit exercitationem neque ab? Nam voluptates 
+          odit necessitatibus dicta et consequuntur maiores, est explicabo praesentium animi eligendi quis 
+          voluptatem dolorum atque excepturi pariatur dolore dolor recusandae provident. Tenetur a iure veniam. 
+          Voluptate accusamus reiciendis dolor eum dicta totam sequi tenetur laboriosam minima dolores esse,
+           ea ad, nihil non. Temporibus illo ex quo officia maxime earum, quos esse pariatur quaerat.
+            Laboriosam similique sint distinctio cupiditate nemo reprehenderit dignissimos?</h2>
       </div>
     </>
   );
