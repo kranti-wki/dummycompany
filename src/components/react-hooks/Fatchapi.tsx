@@ -36,7 +36,7 @@ const Fatchapi: React.FC = () => {
         )} */}
         <ScrollArea className="w-[1000px] max-h-[800px]">
           {value.map((e, i) =>(
-          <h1 key={i} className="text-white text-5xl">{e.title}</h1>
+          <h1 key={i} className="text-white text-3xl text-center flex flex-col justify-center">{e.title}</h1>
         ))}
         </ScrollArea>
         
@@ -61,6 +61,7 @@ const Fatchapi: React.FC = () => {
            ea ad, nihil non. Temporibus illo ex quo officia maxime earum, quos esse pariatur quaerat.
             Laboriosam similique sint distinctio cupiditate nemo reprehenderit dignissimos?</h2>
             <h1 className="text-white text-3xl">number one </h1>
+            <h1>git mistake ho gya </h1>
       </div>
     </>
   );
