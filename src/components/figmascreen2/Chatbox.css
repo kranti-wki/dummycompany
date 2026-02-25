@@ -1,0 +1,51 @@
+
+
+.chatboxsection{
+    width: 100%;
+    max-width: 1084px;
+    height: 100%;
+    max-height: 64px;
+    padding: 20px 20px;
+    background-color: white;
+    display: flex;
+    align-self: last baseline;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #5C5C5C;
+    border-radius: 10px;
+    margin-bottom: 51px;
+    
+}
+
+.emojicontainer{
+    display: flex;
+    gap: 10px;
+    
+}
+
+
+.textinput input{
+    outline: none;
+    font-size: 14px;
+    
+}
+
+.chatemoje{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #5C5C5C;
+}
+
+.sendbutton{
+    height: 49px;
+    width: 49px;
+    background-color: #010088;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

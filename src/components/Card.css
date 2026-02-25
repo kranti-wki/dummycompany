@@ -1,0 +1,120 @@
+
+.card-main-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-container{
+    width: 100%;
+    max-width: 350px; 
+    margin: 20px 20px;
+}
+
+.cards{
+    width: 100%;
+    max-width:320px;
+    background-color: rgb(246, 241, 241);
+    padding: 20px 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.card-front{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.cardimg{
+    max-width: 100%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(210, 209, 209);
+}
+.card-front img{
+    max-width: 100%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.card-front button{
+  padding: 3px 16px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 1rem;
+  border-radius: 10px;
+  background-color: gainsboro;
+  
+}
+
+.bookmark{
+    width: 100%;
+    max-width: 20px;
+
+}
+
+.card-center{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card-center h3{
+    font-size: 1.3rem;
+}
+
+.card-center h2{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.card-center span{
+    font-size: 0.8rem;
+    color: rgb(137, 137, 137);
+}
+
+.card-center div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.card-center div h4{
+    font-size: 0.9rem;
+    border-radius: 8px;
+    background-color: gainsboro;
+    padding: 5px 10px;
+}
+
+.cart-bottom{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    flex-wrap: wrap;
+    margin-top: 25%;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.bottom-button button{
+  background-color: black;
+  padding: 8px 15px;
+  color: white;
+  font-size: 1rem;
+  border-radius: 10px;
+}

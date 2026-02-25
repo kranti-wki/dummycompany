@@ -1,0 +1,51 @@
+.center-screen-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.center-screen{
+    width: 100%;
+    max-width: 609px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.centerimg {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centerimg img{
+    width: 100%;
+    max-width: 301px;
+}
+
+.centertxt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.centertxt h1{
+    font-size: 1.5rem;
+    color: #010088;
+}
+
+.centertxt p{
+    color: #5C5C5C;
+}
+
+@media (max-width:767px){
+    .centerimg img{
+    width: 100%;
+    max-width: 200px;
+}
+}

@@ -1,0 +1,39 @@
+.table-container{
+    width: 50%;
+    margin: 200px auto;
+    padding: 20px 30px;
+}
+
+table{
+    width: 700px;
+    /* border: 2px solid black; */
+    border-collapse: collapse;
+}
+
+th,td{
+    /* border: 1px solid black; */
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 10px;
+}
+
+thead th{
+    background-color: green;
+    color: white;
+}
+
+tbody tr:nth-child(1){
+    background-color: rgb(205, 205, 205);
+}
+
+tbody tr:nth-child(2){
+    background-color: rgb(128, 128, 128);
+}
+
+tbody tr:nth-child(3){
+    background-color: rgb(205, 205, 205);
+}
+
+tbody tr:nth-child(4){
+    background-color: rgb(128, 128, 128);
+}

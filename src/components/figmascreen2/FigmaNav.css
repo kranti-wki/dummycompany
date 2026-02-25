@@ -1,0 +1,117 @@
+
+header{
+    width: 100%;
+    border-bottom: 1px solid #EAEAEA;
+    background-color: white;
+    padding: 11.5px 0px;
+
+}
+
+nav{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.imagelogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+.imagelogo img{
+    width: 100%;
+    max-width: 40px;
+}
+
+.imagelogo h1{
+    font-size: 16px;
+    color: #010088;
+    font-weight: bold;
+}
+
+.navlist ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+}
+
+.navlist ul li{
+     padding: 8px 10px; 
+     
+}
+
+.navlist ul li a{
+    font-size: 14px;
+     color: #010088;
+     padding-bottom: 5px;
+     
+}
+
+/* .navlist ul li a:nth-child(1){
+    border-bottom: 2px solid  #010088;
+} */
+
+.navlist ul li a:hover{
+   border-bottom: 2px solid  #010088;;
+}
+
+.userprofile-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userprofile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.userName h3{
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.userprofile-img img{
+    width: 100%;
+    max-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.humburgericon{
+    display: none;
+    width: 25px;
+    background: none;
+    border: none;
+}
+
+
+@media (max-width: 767px){
+
+    nav{
+        position: relative;
+        padding: 0px 10px;
+    }
+
+    .navlist{
+        position: absolute;
+        display: none;
+    }
+    .userprofile{
+        display: none;
+    }
+
+   .humburgericon{
+    display: block;
+   }
+}

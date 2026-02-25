@@ -1,0 +1,177 @@
+
+.figma-side-panel{
+    width: 100%;
+    max-width: 320px;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+    /* margin: 0 auto; */
+}
+
+.panel-container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchContainer{
+    padding: 20px;
+}
+
+.searchbar{
+    display: flex;
+    padding: 7px 14px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #B8B8B8;
+    gap: 8px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+
+.searchbar input{
+    width: 100%;
+    max-width: 250px;
+    outline: none;
+}
+
+.globalchat-container{
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+
+.globalchat{
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    padding: 7.5px 20px;
+    background: #03028A;
+    background: linear-gradient(90deg, rgba(3, 2, 138, 0.1) 0%, rgba(119, 2, 138, 0.1) 100%);
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #B8B8B8;
+    gap: 8px;
+    border-radius: 10px;
+}
+
+.globalchat input{
+    width: 100%;
+    max-width: 236px;
+    outline: none;
+    
+}
+
+.privatechat{
+    padding: 18px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.nursecommunity{
+    display: flex;
+    flex-direction: column;  
+}
+
+.commuity{
+    display: flex;
+    padding: 8.5px 20px;
+    gap: 4px;
+}
+
+.commuity h1{
+    color: #5C5C5C;
+}
+
+.nursecommunity h2{
+    padding: 8.5px 20px;
+     color: #5C5C5C;
+}
+
+.direct-panel{
+    display: flex;
+    flex-direction: column;
+}
+
+.direct{
+     padding: 18px 20px;
+     box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.userlist-container{
+    padding: 10.5px 0;
+    height: 100vh;
+    max-height: 518px;
+    overflow-y: auto;
+}
+
+.userlist{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 0px;
+}
+
+.userlist-container::-webkit-scrollbar{
+    width: 3px;
+}
+
+.userlist-container::-webkit-scrollbar-thumb{
+    background: #5C5C5C;
+    border-radius: 10px;
+}
+
+
+.userdetail{
+    width: 100%;
+    display: flex;
+    padding: 2.5px 20px;
+    padding-right: 0;
+    align-items: center;
+    
+    
+
+}
+.userdetailprofile{
+   position: relative;
+}
+
+.active-circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #59AC77;
+    position: absolute;
+    top: 27px;
+    left: 28px;
+}
+
+.userimgcircle img{
+    width: 100%;
+    max-width: 47.27px;
+    border-radius: 50%;
+}
+
+.usertextcontantwo{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.usertext h1{
+  font-size: 14px;
+}
+
+.usertext span{
+  font-size: 12px;
+  color: #7b7b7b;
+}
+
+
+.usertextcontantwo span.seen-time{
+    font-size: 10px;
+    list-style: none;
+    color: #7b7b7b;
+}

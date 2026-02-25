@@ -1,0 +1,60 @@
+
+
+
+
+.herosection{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.herosection img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.herosection-detail{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.blur-detail{
+    width: 100%;
+    max-width: 700px;
+    margin-top: 300px;
+    padding: 20px;
+    color: white;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blur-detail h1{
+    font-size: 4rem;
+}
+
+.blur-detail p{
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+.blur-detail button{
+    padding: 16px 20px;
+    margin: 0 auto;
+    margin-left: 0;
+    font-size: 1rem;
+    border-radius:10px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    font-weight: 600;
+    display: inline-block;
+}

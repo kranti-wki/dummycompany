@@ -1,0 +1,106 @@
+.carasoul-conainer{
+    width: 100%;
+    max-width: 1000px;
+    margin: 100px  auto;
+    padding: 20px 0;
+    position: relative;
+    
+}
+
+.carasole1{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 10px;
+    
+
+}
+
+.carasoule-img{
+   width: 50%;
+   position: relative;
+}
+
+.carasoule-img img{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 0px;
+    position: absolute;
+    top: -21px;
+    left: 80px;
+}
+
+.carasoul-text{
+    width: 50%;
+    padding: 15px 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.carasoul-text p{
+    font-size: 1.3rem;
+}
+
+.carasoul-text li{
+    list-style: none;
+    font-size: 1rem;
+}
+
+
+.carasoule-button-left{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: -20px;
+}
+
+.left-arrow{
+    width: 100%;
+    max-width: 50px;
+    color: green;
+}
+
+.carasoul-button-right{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    right: -20px;
+}
+
+.right-arrow{
+    width: 100%;
+    max-width: 50px;
+    color: green;
+}
+
+
+.carasoul-dot{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.carasoul-dot div{
+    height: 15px;
+    width: 15px;
+    border: 2px solid green;
+    border-radius: 50px;
+}
+
+.carasoul-dot div:hover{
+    background-color: green;
+}
+
